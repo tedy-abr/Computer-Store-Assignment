@@ -1,0 +1,117 @@
+section {
+  background-color: #fbfbfb;
+
+  border-radius: 1rem;
+  box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 49px;
+}
+
+p {
+  margin-top: 32px;
+}
+
+.bank,
+.work,
+.laptops {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 30%;
+  min-width: 250px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+  width: 85%;
+  margin-top: 20px;
+}
+
+.loanBtn,
+.repayBtn {
+  width: 100%;
+}
+.loanBtn {
+  color: black;
+  background-color: rgba(75, 240, 161, 255);
+  margin-top: 141px;
+}
+.repayBtn {
+  margin-top: 118px;
+  color: black;
+  background-color: #4d80f0;
+}
+
+.transferBtn,
+.workBtn {
+  min-width: 46%;
+}
+
+.transferBtn {
+  color: black;
+  background-color: rgb(237, 238, 76);
+}
+
+.workBtn {
+  color: black;
+  background-color: rgb(77, 112, 240);
+}
+
+.btn-row {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: auto;
+  justify-content: space-between;
+}
+
+.lastSection {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 2px solid #ebebeb;
+}
+
+.img,
+.tit-des,
+.buy {
+  display: flex;
+  flex-flow: column;
+}
+.img {
+  margin: auto;
+  width: 12rem;
+  height: 11rem;
+}
+
+.tit-des,
+.buy {
+  text-align: center;
+  line-height: 0;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+.tit-des {
+  flex: 2;
+}
+
+#price {
+  text-align: center;
+  font-weight: 550;
+  font-size: 2.5rem;
+}
+
+#buyBtn {
+  font-size: 27px;
+  font-weight: 600;
+  color: black;
+  background-color: #4bc9f1;
+}
